@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(deeppink, purple);
+    padding: 5.5rem;
+}
+
+.section {
+    padding: 1rem 7%;
+}
+
+.button {
+    font-size: 2rem;
+    padding: 0.7rem 4rem;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, .5);
+    color: #555;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+header {
+    width: 35rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.c1 {
+    padding-top: 3rem;
+}
+
+.c1 img {
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255, 255, 255, .2);
+}
+
+.name {
+    font-size: 3rem;
+    color: #fff;
+    padding: 0.5rem 0;
+
+}
+
+.post {
+    font-size: 2rem;
+    color: #eee;
+    font-weight: lighter;
+    padding: 0.5rem;
+
+}
+
+.navbar {
+    padding: 1rem 1rem;
+
+}
+
+.navbar ul li {
+    margin: 1.5rem 0;
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+    transition: .2s linear;
+}
+
+.navbar ul li a:hover {
+    background: rgba(255, 255, 255, .5);
+    color: #555;
+    transition: none;
+}
+
+.container {
+    height: 67rem;
+    width: 80rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.Home {
+    min-height: 103%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+.Home h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #eee;
+
+}
+
+.name1 {
+    padding-top: 2rem;
+}
+
+.name1 span {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.post1 {
+    padding: 1.5rem 0;
+}
+
+.post1 span {
+    font-size: 3rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.share {
+    position: absolute;
+    left: 50%;
+    bottom: 5rem;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    transition: .2s linear;
+}
+
+.share a {
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    padding: 1rem 2.3rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.share a:hover {
+    background: rgba(255, 255, 255, .5);
+    color: #555;
+}
+
+.About {
+    min-height: 200%;
+}
+
+.About {
+    padding: 0rem;
+}
+
+.content h3 {
+    font-size: 2.5rem;
+    color: #eee;
+}
+
+.content h3 span {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.content h4 {
+    text-align: start;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.content p {
+    font-size: 2rem;
+    text-transform: none;
+    color: #eee;
+    padding: 1rem 0;
+    padding-bottom: 1rem;
+    text-align: justify;
+    margin: 0% 10%;
+
+}
+
+.strength ul {
+    margin-left: 28%;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.strength ul li {
+    margin-right: 50%;
+    padding-bottom: 1rem;
+    text-align: start;
+    padding-left: 30px;
+}
+
+.progress {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, .2);
+    border-radius: 1rem;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.progress h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.progress .bar {
+    position: relative;
+    width: 100%;
+    height: 0.3rem;
+    margin: 1rem 0;
+    background: #555;
+}
+
+.progress .bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.Skills.progress:nth-child(1) .bar span {
+    width: 85%;
+}
+
+.Skills {
+    min-height: 100%;
+}
+
+.Qualification {
+    min-height: 100%;
+    color: #eee;
+
+}
+
+.qualify h3,
+h4 {
+    padding-bottom: 10px;
+}
+
+.qualify h3 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.qualify h4 {
+    font-size: 1.5rem;
+}
+
+.Personal {
+    min-height: 100%;
+    color: #eee;
+    font-size: 1.2rem;
+}
+
+.label {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: 20%;
+
+}
